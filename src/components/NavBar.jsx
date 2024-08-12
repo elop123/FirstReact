@@ -7,7 +7,7 @@ function NavBar () {
            <li>Home</li>
            <li>Service</li>
            <li>Contact</li>
-           <li>Products</li>
+           <li>Product</li>
         </ul>
         
         </nav>
