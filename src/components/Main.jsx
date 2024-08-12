@@ -2,7 +2,7 @@
 function Main (){
     return(
         
-        <h1>Hello</h1>
+        <h2>It is my First react component</h2>
     )
 
 }

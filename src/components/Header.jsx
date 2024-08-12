@@ -1,6 +1,5 @@
 function Header (){
     return(<>
-<h2>It is my First react component</h2>
 <nav class="main-nav">
         <ul>
             <li>About</li>
@@ -9,6 +8,8 @@ function Header (){
             <li>Contact</li>
         </ul>
     </nav>
+    <h1>Hello</h1>
+   
     </>)
 }
 

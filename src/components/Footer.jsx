@@ -1,6 +1,6 @@
 function Footer (){
     return(
-<h3>Elena </h3>);
+<h3>Footer </h3>);
 }
 
 export default Footer
