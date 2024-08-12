@@ -1,0 +1,20 @@
+body {
+  border: 2px solid aquamarine;
+}
+
+.mydiv {
+  border: 1px solid green;
+  background-color: rgb(200, 244, 229);
+  width: 400px;
+  height: 200px;
+  border-radius: 10px;
+  margin: auto;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.myp {
+  color: rgb(174, 13, 150);
+  font-weight: 600;
+  font-size: 20px;
+}

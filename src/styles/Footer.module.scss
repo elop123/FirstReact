@@ -1,11 +1,18 @@
-.myFooter{
+.myfooter{
     background-color: rgb(28, 206, 206);
-    padding: 20px;
+    border-radius: 5px;
     margin-top: 2rem;
+    display: flex;
+    justify-content:space-around;
+    .fsection{
+        flex: 1;
+        padding: 0 10px;
+    }
+
     ul li{
         list-style-type: none;
-        display:inline;
-        padding: 1rem;
+        padding: 5px;
+        margin-left: -25px;
     }
-    
+   
 }

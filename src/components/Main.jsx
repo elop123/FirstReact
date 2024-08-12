@@ -5,7 +5,7 @@ function Main (){
         <>
         <div className={style.mydiv}>
         <h2>It is my First react component</h2>
-        <p  className={style.myD}>Learning React is challenging  &#128549;</p>
+        <p  className={style.myp}>Learning React is challenging  &#128549;</p>
         </div>
         </>
     )

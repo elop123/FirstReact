@@ -1,0 +1,16 @@
+.myfooter {
+  background-color: rgb(28, 206, 206);
+  border-radius: 5px;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+.myfooter .fsection {
+  flex: 1;
+  padding: 0 10px;
+}
+.myfooter ul li {
+  list-style-type: none;
+  padding: 5px;
+  margin-left: -25px;
+}
