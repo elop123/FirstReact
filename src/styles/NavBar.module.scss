@@ -1,0 +1,17 @@
+.navStyle{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+}
+
+.linkStyle{
+    color: dodgerblue;
+    list-style-type: none;
+    display: inline;
+    padding: 12px;
+    cursor: pointer;
+    &:hover{
+        color:rgb(17, 174, 35) ;
+        
+    }
+}
