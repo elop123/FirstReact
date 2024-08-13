@@ -1,6 +1,7 @@
 import style from '../styles/Main.module.scss'
 import Greeting from './Greeting'
 import List from './List'
+import Button from './Button'
 
 
 function Main (){
@@ -19,6 +20,11 @@ function Main (){
         'Bad boys',
         'After earth'
       ]
+
+      const buttons = [
+        'SmallBtn',
+        'MediumBtn',
+        'BigBTn'   ]
     return(
         <>
         <div className={style.mydiv}>
@@ -33,7 +39,9 @@ function Main (){
         <h2 className={style.myH2}>Movie List:</h2>
         <List dishes={movies} />
         </div>
-       
+        {buttons.map((text, index) => (
+            <Button key={index} text={text} />
+        ))}
         </div>
         </>
     )
