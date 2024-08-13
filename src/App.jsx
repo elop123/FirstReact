@@ -10,7 +10,7 @@ import Greeting from './components/Greeting'
 function App() {
    return (
       <>
-      <Header />
+      <Header  headerText='Props er cool'/>
       <Main/> 
       <Footer/>
       </>
