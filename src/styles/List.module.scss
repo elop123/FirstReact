@@ -1,0 +1,13 @@
+ul{
+    list-style-type: none;
+}
+
+.myUl{
+    display: flex;
+    flex-direction: 1;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    li{
+        padding: 0.5rem;
+    }
+}

@@ -1,7 +1,24 @@
 import style from '../styles/Main.module.scss'
 import Greeting from './Greeting'
+import List from './List'
+
 
 function Main (){
+    const dishes = [
+        'Lasagna',
+        'Pizza',
+        'Pasta Carbonara',
+        'Greek Musaka',
+        'Broccoli Cake'
+      ];
+
+      const movies =[
+        'Titanic',
+        'Terminator',
+        'A thousand words',
+        'Bad boys',
+        'After earth'
+      ]
     return(
         <>
         <div className={style.mydiv}>
@@ -10,6 +27,13 @@ function Main (){
         <Greeting name='Loveleen' />
         <h2>It is my First react component</h2>
         <p  className={style.myp}>Learning React is challenging  &#128549;</p>
+        <div className={style.flexdiv}>
+        <h2 className={style.myH2}>Dish List:</h2>
+        <List dishes={dishes} />
+        <h2 className={style.myH2}>Movie List:</h2>
+        <List dishes={movies} />
+        </div>
+       
         </div>
         </>
     )
